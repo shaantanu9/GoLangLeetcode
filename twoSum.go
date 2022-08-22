@@ -10,6 +10,7 @@ import "fmt"
 
 func main() {
 	nums := []int{1, 3, 4, 6, 7, 1, 21, 32, 11, 45}
+	// fmt.Printf("%T\n", nums) // []int
 	funcResult := twoSum(nums[:], 9)
 	fmt.Println(funcResult)
 }
