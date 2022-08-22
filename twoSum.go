@@ -9,8 +9,8 @@ package main
 import "fmt"
 
 func main() {
-	var nums = [10]int{1, 3, 4, 6, 7, 1, 21, 32, 11, 45}
-	funcResult := twoSum(nums[:], 92)
+	nums := []int{1, 3, 4, 6, 7, 1, 21, 32, 11, 45}
+	funcResult := twoSum(nums[:], 9)
 	fmt.Println(funcResult)
 }
 
